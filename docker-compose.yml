@@ -1,0 +1,12 @@
+﻿services:
+  aqsa.api:
+    image: aqsa.api
+    build:
+      context: .
+      dockerfile: Aqsa.API/Dockerfile
+
+  aqsa.api-1:
+    image: aqsa.api-1
+    build:
+      context: .
+      dockerfile: Aqsa.API/Dockerfile
