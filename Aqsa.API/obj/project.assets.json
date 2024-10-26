@@ -1292,7 +1292,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.10.0",
-          "FluentValidation.AspNetCore": "11.3.0",
           "FluentValidation.DependencyInjectionExtensions": "11.10.0",
           "MailKit": "4.8.0",
           "MediatR": "12.4.1",
@@ -3972,6 +3971,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Aqsa.Infrastructure >= 1.0.0",
+      "FluentValidation.AspNetCore >= 11.3.0",
       "MediatR >= 12.4.1",
       "Microsoft.AspNetCore.OpenApi >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0-rc.2.24474.1",
@@ -4025,6 +4025,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[12.4.1, )"

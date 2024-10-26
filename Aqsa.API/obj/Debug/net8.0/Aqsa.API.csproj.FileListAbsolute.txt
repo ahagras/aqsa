@@ -182,3 +182,5 @@
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.API/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.API/obj/Debug/net8.0/Aqsa.API.sourcelink.json

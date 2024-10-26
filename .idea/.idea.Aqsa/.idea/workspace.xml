@@ -8,7 +8,81 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eea3c9fa-7c80-4372-9324-19ee338cc85e" name="Changes" comment="" />
+    <list default="true" id="eea3c9fa-7c80-4372-9324-19ee338cc85e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aqsa.API/Middleware/CustomExceptionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aqsa.Domain/Common/Exceptions/ValidationException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aqsa.Domain/Common/Interceptors/ValidationBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aqsa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aqsa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/Aqsa.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/Aqsa.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/Interceptors/ValidationInterceptor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/bin/Debug/net8.0/Aqsa.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Aqsa.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Aqsa.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/Aqsa.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/ref/Aqsa.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/ref/Aqsa.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/refint/Aqsa.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/Debug/net8.0/refint/Aqsa.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/Aqsa.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/Aqsa.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/ConfigureServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/ConfigureServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/Identity/UserRegistration/CreateRegistrationRequest/CreateRegistrationRequestCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/bin/Debug/net8.0/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/bin/Debug/net8.0/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/bin/Debug/net8.0/Aqsa.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/bin/Debug/net8.0/Aqsa.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Aqsa.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Aqsa.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/ref/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/ref/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/refint/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/Debug/net8.0/refint/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/bin/Debug/net8.0/Aqsa.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Aqsa.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Aqsa.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/ref/Aqsa.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/ref/Aqsa.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/refint/Aqsa.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/Debug/net8.0/refint/Aqsa.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aqsa.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Aqsa.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +94,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd5bd808aa7343b9bc25e313b6b32996219600/a3/20d66f82/ValidationProblemDetails.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/37cf93917ec38cc6a96176b4240fe2fe05f294df6d9955a4c023fd9b30aa58/SocketAwaitableEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9161da3da671f777cc3652d39696c23db97793e37cb97fcb4e1e87234e56322/ValidationException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ce37be1a06b16c6faa02038d2cc477dd3bca5b217ceeb41c5f2ad45c1bf9/ServiceProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb4872fad8d83c63a7613e71c3fae8d61cee98ca9842fc4bad2807ce8dccb/RequestDelegateFactory.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -29,34 +110,39 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2nvAPet8IREMUZtVUjiTLv6G1cG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Aqsa.API: http.executor&quot;: &quot;Debug&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.Aqsa.API/Dockerfile.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Aqsa.API: http.executor": "Run",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Docker.Aqsa.API/Dockerfile.executor": "Debug",
+    "HTTP Request.Aqsa.API | #1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;,
-      &quot;redis&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "redis"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Aqsa.API: http">
+    <configuration name="Aqsa.API | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/Aqsa.API/Aqsa.API.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Aqsa.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Aqsa.API/Aqsa.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -131,6 +217,11 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.Aqsa.API | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -143,6 +234,7 @@
       <workItem from="1729843153767" duration="1186000" />
       <workItem from="1729854032115" duration="9954000" />
       <workItem from="1729890241664" duration="92000" />
+      <workItem from="1729892323168" duration="8321000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

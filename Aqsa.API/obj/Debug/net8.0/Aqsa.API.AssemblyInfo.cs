@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aqsa.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d630b8fbf106a490fad1c9d5b9d49b7fa4cc65e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aqsa.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aqsa.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,3 +32,4 @@
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.pdb
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.genruntimeconfig.cache
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Infrastructure/obj/Debug/net8.0/ref/Aqsa.Infrastructure.dll
+/Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Infrastructure/obj/Debug/net8.0/Aqsa.Infrastructure.sourcelink.json

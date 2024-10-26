@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "n6SLxLRpBFc=",
+  "dgSpecHash": "HFma+UG99jw=",
   "success": true,
   "projectFilePath": "/Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Infrastructure/Aqsa.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/hagras/.nuget/packages/bouncycastle.cryptography/2.4.0/bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "/Users/hagras/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
-    "/Users/hagras/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "/Users/hagras/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
     "/Users/hagras/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/hagras/.nuget/packages/mailkit/4.8.0/mailkit.4.8.0.nupkg.sha512",

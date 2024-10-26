@@ -1,11 +1,13 @@
 using System.Reflection;
+using Aqsa.API.Middleware;
 using Aqsa.Domain;
 using Aqsa.Domain.Common;
+using Aqsa.Domain.Common.Identity.UserRegistration;
 using Aqsa.Domain.Common.Models;
 using Aqsa.Domain.Common.Services.Cache;
 using Aqsa.Domain.Common.Services.EmailSender;
-using Aqsa.Domain.Identity.UserRegistration.CreateRegistrationRequest;
 using Aqsa.Infrastructure;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
@@ -19,11 +21,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// builder.Services.AddValidatorsFromAssemblyContaining<CreateRegistrationRequestCommandValidator>();
 
 builder.Services.AddDbContext<IJADbContext,JADbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
         .UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking));
 
+builder.Services.AddValidatorsFromAssemblyContaining<CreateRegistrationRequest>();
+
+builder.Services.AddExceptionHandler<CustomExceptionHandler>();
 
 builder.Services.AddMediatR(conf =>
     conf.RegisterServicesFromAssemblyContaining<Program>());
@@ -44,9 +50,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseExceptionHandler(options => { });
+
 app.UseHttpsRedirection();
 
-app.MapPost("/RegistrationRequest", async (CreateRegistrationRequestCommand request, IMediator mediator) => await mediator.Send(request))
+app.MapPost("/RegistrationRequest", async (CreateRegistrationRequest request, IMediator mediator) => await mediator.Send(request))
     .WithName("RegistrationRequest")
     .WithOpenApi();
 

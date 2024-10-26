@@ -22,3 +22,4 @@
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Domain/obj/Debug/net8.0/refint/Aqsa.Domain.dll
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.pdb
 /Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Domain/obj/Debug/net8.0/ref/Aqsa.Domain.dll
+/Users/hagras/Desktop/Aqsa/Aqsa/Aqsa.Domain/obj/Debug/net8.0/Aqsa.Domain.sourcelink.json

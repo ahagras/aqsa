@@ -47,6 +47,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
@@ -135,10 +139,6 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.10.0, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
             },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
